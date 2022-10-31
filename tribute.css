@@ -1,0 +1,30 @@
+body{
+    margin: 60px;
+    
+    font-family : Times New Roman;
+    background:bisque;
+  }
+  *{
+  box-sizing: border-box;
+}
+  .header{
+    text-align: center;
+    font-size:50px;
+    text-shadow: 2px 2px 4px #000;
+    color: black;
+  }
+
+  .main{
+    max-width: 660px; 
+          margin: 0 auto;
+  }
+.responsive{
+    padding-left:300px
+
+}
+  @media onlyscreen and(max-width: 620px){
+  .main,.header{
+    width: 100%;
+  }
+  } 
+    
